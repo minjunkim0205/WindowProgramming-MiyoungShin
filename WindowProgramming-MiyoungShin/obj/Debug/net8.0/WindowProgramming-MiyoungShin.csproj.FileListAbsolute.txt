@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\bin\Debug\net8.0\WindowProgramming-MiyoungShin.exe
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\bin\Debug\net8.0\WindowProgramming-MiyoungShin.deps.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\bin\Debug\net8.0\WindowProgramming-MiyoungShin.runtimeconfig.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\bin\Debug\net8.0\WindowProgramming-MiyoungShin.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\bin\Debug\net8.0\WindowProgramming-MiyoungShin.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.sourcelink.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\refint\WindowProgramming-MiyoungShin.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\WindowProgramming-MiyoungShin.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\WindowProgramming-MiyoungShin\obj\Debug\net8.0\ref\WindowProgramming-MiyoungShin.dll

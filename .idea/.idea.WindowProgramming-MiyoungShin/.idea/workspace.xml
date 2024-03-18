@@ -6,6 +6,15 @@
     <projectFile>Week01-2/Ex01/Ex01.csproj</projectFile>
     <projectFile>Week02-1/Ex01/Ex01.csproj</projectFile>
     <projectFile>Week02-1/Ex03/Ex03/Ex03.csproj</projectFile>
+    <projectFile>Week02-1/Te02/Te02.csproj</projectFile>
+    <projectFile>Week02-1/Te03/Te03.csproj</projectFile>
+    <projectFile>Week03-1/Ex01/Ex01.csproj</projectFile>
+    <projectFile>Week03-1/Te01/Te01.csproj</projectFile>
+    <projectFile>Week03-1/Te04/Te04.csproj</projectFile>
+    <projectFile>Week03-1/Te05-2/Te05-2.csproj</projectFile>
+    <projectFile>Week03-1/Te05/Te05.csproj</projectFile>
+    <projectFile>Week03-1/Te06/Te06.csproj</projectFile>
+    <projectFile>Week03-1/Test/Test.csproj</projectFile>
     <projectFile>WindowProgramming-MiyoungShin/WindowProgramming-MiyoungShin.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -13,46 +22,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f4c9468-aca7-4411-8799-ea96689c8331" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowProgramming-MiyoungShin/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowProgramming-MiyoungShin/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowProgramming-MiyoungShin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowProgramming-MiyoungShin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/ref/Ex01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/ref/Ex01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/refint/Ex01.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/refint/Ex01.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/ref/Ex02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/ref/Ex02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/refint/Ex02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/refint/Ex02.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/Ex01.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Debug/net8.0/Ex01.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Ex01.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Ex01.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/Ex01.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-1/Ex01/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/Ex01.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Debug/net8.0/Ex01.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Ex01.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Ex01.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/Ex01.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week01-2/Ex01/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/Ex01.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/Ex01.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/ref/Ex01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Debug/net8.0/refint/Ex01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Ex01.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Ex01.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/Ex01.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex01/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/Ex02.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/Ex02.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/ref/Ex02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Debug/net8.0/refint/Ex02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Ex02.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Ex02.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/Ex02.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex02/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/Ex03.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/Ex03.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/ref/Ex03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Debug/net8.0/refint/Ex03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Ex03.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Ex03.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/Ex03.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02-1/Ex03/obj/rider.project.restore.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/ref/WindowProgramming-MiyoungShin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/ref/WindowProgramming-MiyoungShin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/refint/WindowProgramming-MiyoungShin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/refint/WindowProgramming-MiyoungShin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/WindowProgramming-MiyoungShin.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/ref/WindowProgramming-MiyoungShin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/refint/WindowProgramming-MiyoungShin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/WindowProgramming-MiyoungShin.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/WindowProgramming-MiyoungShin.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/WindowProgramming-MiyoungShin.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,18 +188,31 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2dWqevTSRCGowCLS8QtDJgYOXzw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Te05.executor": "Run",
+    ".NET Project.Test.executor": "Run",
     ".NET Project.Week02-1\\Ex01.executor": "Run",
     ".NET Project.Week02-1\\Ex02.executor": "Run",
     ".NET Project.Week02-1\\Ex03.executor": "Run",
+    ".NET Project.Week03-1\\Te02.executor": "Run",
+    ".NET Project.Week03-1\\Te03.executor": "Run",
+    ".NET Project.Week03-1\\Te04.executor": "Run",
+    ".NET Project.Week03-1\\Te05.executor": "Run",
+    ".NET Project.Week03-1\\Te06.executor": "Run",
+    ".NET Project.Week03-1\\Te07.executor": "Run",
+    ".NET Project.Week03-1\\Te08.executor": "Run",
     ".NET Project.WindowProgramming-MiyoungShin.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -85,7 +220,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -96,34 +231,16 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.WindowProgramming-MiyoungShin">
-    <configuration name="Ex03" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+  <component name="RunManager" selected=".NET Project.Week03-1\Te08">
+    <configuration name="Week03-1\Te04" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Week03-1/Te04/bin/Debug/net8.0/Te04.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week03-1/Te04/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week02-1/Ex03/Ex03/Ex03.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Week02-1\Ex01" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0/Ex01.exe" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week02-1/Ex01/bin/Debug/net8.0" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week02-1/Ex01/Ex01.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week03-1/Te04/Te04.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -133,15 +250,15 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Week02-1\Ex02" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0/Ex02.exe" />
+    <configuration name="Week03-1\Te05" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Week03-1/Te05/bin/Debug/net8.0/Te05.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week02-1/Ex02/bin/Debug/net8.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week03-1/Te05/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week02-1/Ex02/Ex02.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week03-1/Te05/Te05.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -151,15 +268,51 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Week02-1\Ex03" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0/Ex03.exe" />
+    <configuration name="Week03-1\Te06" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Week03-1/Te06/bin/Debug/net8.0/Te06.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week02-1/Ex03/bin/Debug/net8.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week03-1/Te06/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week02-1/Ex03/Ex03.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week03-1/Te06/Te06.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net8.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Week03-1\Te07" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Week03-1/Te07/bin/Debug/net8.0/Te07.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week03-1/Te07/bin/Debug/net8.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week03-1/Te07/Te07.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net8.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Week03-1\Te08" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Week03-1/Te08/bin/Debug/net8.0/Te08.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week03-1/Te08/bin/Debug/net8.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week03-1/Te08/Te08.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -170,9 +323,9 @@
       </method>
     </configuration>
     <configuration name="WindowProgramming-MiyoungShin" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0/WindowProgramming-MiyoungShin.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WindowProgramming-MiyoungShin/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -182,16 +335,26 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.WindowProgramming-MiyoungShin" />
+      <item itemvalue=".NET Project.Week03-1\Te04" />
+      <item itemvalue=".NET Project.Week03-1\Te05" />
+      <item itemvalue=".NET Project.Week03-1\Te06" />
+      <item itemvalue=".NET Project.Week03-1\Te07" />
+      <item itemvalue=".NET Project.Week03-1\Te08" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Project.Week02-1\Ex03" />
-        <item itemvalue=".NET Project.Week02-1\Ex02" />
-        <item itemvalue=".NET Project.Week02-1\Ex01" />
+        <item itemvalue=".NET Project.Week03-1\Te08" />
+        <item itemvalue=".NET Project.Week03-1\Te07" />
+        <item itemvalue=".NET Project.Week03-1\Te06" />
+        <item itemvalue=".NET Project.Week03-1\Te05" />
+        <item itemvalue=".NET Project.Week03-1\Te04" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +372,7 @@
       <workItem from="1710135511025" duration="947000" />
       <workItem from="1710678412644" duration="13000" />
       <workItem from="1710678500344" duration="2681000" />
+      <workItem from="1710734300366" duration="6098000" />
     </task>
     <servers />
   </component>
@@ -217,5 +381,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

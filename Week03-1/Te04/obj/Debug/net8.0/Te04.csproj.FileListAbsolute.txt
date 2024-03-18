@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\bin\Debug\net8.0\Te04.exe
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\bin\Debug\net8.0\Te04.deps.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\bin\Debug\net8.0\Te04.runtimeconfig.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\bin\Debug\net8.0\Te04.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\bin\Debug\net8.0\Te04.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.sourcelink.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\refint\Te04.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\Te04.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te04\obj\Debug\net8.0\ref\Te04.dll

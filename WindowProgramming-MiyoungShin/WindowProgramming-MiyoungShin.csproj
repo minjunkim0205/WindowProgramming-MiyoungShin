@@ -8,8 +8,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Week01-1\" />
-    </ItemGroup>
-
 </Project>

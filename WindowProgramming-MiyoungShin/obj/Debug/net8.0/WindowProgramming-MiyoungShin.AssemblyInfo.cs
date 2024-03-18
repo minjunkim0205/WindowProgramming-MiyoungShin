@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowProgramming-MiyoungShin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+621138d5c49609c43ea62ecfdf8a7d53f54dfd2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ada8422f59c14c6260704c18f2c256b390b0384f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowProgramming-MiyoungShin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowProgramming-MiyoungShin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\bin\Debug\net8.0\Te11.exe
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\bin\Debug\net8.0\Te11.deps.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\bin\Debug\net8.0\Te11.runtimeconfig.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\bin\Debug\net8.0\Te11.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\bin\Debug\net8.0\Te11.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.sourcelink.json
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\refint\Te11.dll
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.pdb
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\Te11.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Rider\WindowProgramming-MiyoungShin\Week03-1\Te11\obj\Debug\net8.0\ref\Te11.dll

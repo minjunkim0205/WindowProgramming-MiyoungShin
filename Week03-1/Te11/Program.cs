@@ -9,22 +9,22 @@ class Program
         string[] words = sentence.Split(' ');
         Array.Sort(words);
         Console.Write($"[ Repeating words ]\n");
-        string prevWord = null;
+        string prev_word = null;
         int count = 0;
         foreach (string word in words) {
-            if (word == prevWord) {
+            if (word == prev_word) {
                 count++;
             }
             else {
                 if (count > 1) {
-                    Console.Write($"{prevWord}: {count}\n");
+                    Console.Write($"{prev_word}: {count}\n");
                 }
-                prevWord = word;
+                prev_word = word;
                 count = 1;
             }
         }
         if (count > 1) {
-            Console.Write($"{prevWord}: {count}\n");
+            Console.Write($"{prev_word}: {count}\n");
         }
     }
 }

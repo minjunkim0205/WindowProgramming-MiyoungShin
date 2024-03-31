@@ -23,6 +23,8 @@
     <projectFile>Week04-1/Te04/Te04.csproj</projectFile>
     <projectFile>Week04-1/Te05/Te05.csproj</projectFile>
     <projectFile>Week04-1/Te06/Te06.csproj</projectFile>
+    <projectFile>Week04-1/Te07/Te07.csproj</projectFile>
+    <projectFile>Week04-1/Te08/Te08.csproj</projectFile>
     <projectFile>WindowProgramming-MiyoungShin/WindowProgramming-MiyoungShin.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -57,9 +59,16 @@
       <change beforePath="$PROJECT_DIR$/Week03-1/Te09/obj/Debug/net8.0/Te09.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te09/obj/Debug/net8.0/Te09.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week03-1/Te10/obj/Debug/net8.0/Te10.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te10/obj/Debug/net8.0/Te10.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week03-1/Te10/obj/Debug/net8.0/Te10.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te10/obj/Debug/net8.0/Te10.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week03-1/Te11/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te11/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week03-1/Te11/obj/Debug/net8.0/Te11.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te11/obj/Debug/net8.0/Te11.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week03-1/Te11/obj/Debug/net8.0/Te11.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week03-1/Te11/obj/Debug/net8.0/Te11.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te03/obj/Debug/net8.0/Te03.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te03/obj/Debug/net8.0/Te03.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te03/obj/Debug/net8.0/Te03.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te03/obj/Debug/net8.0/Te03.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te04/obj/Debug/net8.0/Te04.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te04/obj/Debug/net8.0/Te04.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te04/obj/Debug/net8.0/Te04.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te04/obj/Debug/net8.0/Te04.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te05/obj/Debug/net8.0/Te05.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te05/obj/Debug/net8.0/Te05.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te05/obj/Debug/net8.0/Te05.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te05/obj/Debug/net8.0/Te05.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te06/obj/Debug/net8.0/Te06.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te06/obj/Debug/net8.0/Te06.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week04-1/Te06/obj/Debug/net8.0/Te06.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Week04-1/Te06/obj/Debug/net8.0/Te06.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowProgramming-MiyoungShin/obj/Debug/net8.0/WindowProgramming-MiyoungShin.AssemblyInfoInputs.cache" afterDir="false" />
@@ -90,6 +99,8 @@
     ".NET Project.Te04.executor": "Run",
     ".NET Project.Te05.executor": "Run",
     ".NET Project.Te06.executor": "Run",
+    ".NET Project.Te07.executor": "Run",
+    ".NET Project.Te08.executor": "Run",
     ".NET Project.Te09.executor": "Run",
     ".NET Project.Te10.executor": "Run",
     ".NET Project.Te11.executor": "Run",
@@ -128,7 +139,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Te06">
+  <component name="RunManager" selected=".NET Project.Te08">
     <configuration name="Te01" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -210,6 +221,42 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week04-1/Te06/Te06.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Te07" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week04-1/Te07/Te07.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Te08" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Week04-1/Te08/Te08.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -382,6 +429,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue=".NET Project.Te07" />
+      <item itemvalue=".NET Project.Te08" />
       <item itemvalue=".NET Project.Te04" />
       <item itemvalue=".NET Project.Te05" />
       <item itemvalue=".NET Project.Te06" />
@@ -426,6 +475,7 @@
       <workItem from="1711305551107" duration="2088000" />
       <workItem from="1711307708059" duration="115000" />
       <workItem from="1711339011683" duration="6221000" />
+      <workItem from="1711899225197" duration="2705000" />
     </task>
     <servers />
   </component>

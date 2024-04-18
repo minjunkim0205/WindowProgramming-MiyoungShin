@@ -26,3 +26,4 @@ C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\SWD4CS-main\obj\
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\SWD4CS-main\obj\Debug\net6.0-windows\SWD4CS.pdb
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\SWD4CS-main\obj\Debug\net6.0-windows\SWD4CS.genruntimeconfig.cache
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\SWD4CS-main\obj\Debug\net6.0-windows\ref\SWD4CS.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\SWD4CS-main\obj\Debug\net6.0-windows\SWD4CS.sourcelink.json

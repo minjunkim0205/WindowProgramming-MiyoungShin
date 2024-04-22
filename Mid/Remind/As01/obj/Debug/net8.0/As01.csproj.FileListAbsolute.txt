@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.sourcelink.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\bin\Debug\net8.0\As01.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\bin\Debug\net8.0\As01.deps.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\bin\Debug\net8.0\As01.runtimeconfig.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\bin\Debug\net8.0\As01.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\bin\Debug\net8.0\As01.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\refint\As01.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\As01.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As01\obj\Debug\net8.0\ref\As01.dll

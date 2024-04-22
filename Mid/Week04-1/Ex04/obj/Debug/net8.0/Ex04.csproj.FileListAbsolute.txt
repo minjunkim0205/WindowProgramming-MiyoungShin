@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\bin\Debug\net8.0\Ex04.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\bin\Debug\net8.0\Ex04.deps.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\bin\Debug\net8.0\Ex04.runtimeconfig.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\bin\Debug\net8.0\Ex04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\bin\Debug\net8.0\Ex04.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.sourcelink.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\refint\Ex04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\Ex04.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week04-1\Ex04\obj\Debug\net8.0\ref\Ex04.dll

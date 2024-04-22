@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.sourcelink.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\bin\Debug\net8.0\As02.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\bin\Debug\net8.0\As02.deps.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\bin\Debug\net8.0\As02.runtimeconfig.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\bin\Debug\net8.0\As02.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\bin\Debug\net8.0\As02.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\refint\As02.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\As02.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As02\obj\Debug\net8.0\ref\As02.dll

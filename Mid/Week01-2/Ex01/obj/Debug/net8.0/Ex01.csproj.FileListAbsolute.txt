@@ -12,3 +12,4 @@ C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week01-2\Ex0
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week01-2\Ex01\obj\Debug\net8.0\Ex01.pdb
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week01-2\Ex01\obj\Debug\net8.0\Ex01.genruntimeconfig.cache
 C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week01-2\Ex01\obj\Debug\net8.0\ref\Ex01.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Week01-2\Ex01\obj\Debug\net8.0\Ex01.sourcelink.json

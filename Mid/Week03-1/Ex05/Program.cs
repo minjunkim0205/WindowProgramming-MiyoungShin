@@ -2,7 +2,7 @@
 
 class Program
 {
-    private enum DayOfTheWeek
+    enum DayOfTheWeek
     {
         Monday,
         Tuesday,

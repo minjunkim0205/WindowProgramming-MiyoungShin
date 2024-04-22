@@ -1,0 +1,15 @@
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\bin\Debug\net8.0\As04.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\bin\Debug\net8.0\As04.deps.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\bin\Debug\net8.0\As04.runtimeconfig.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\bin\Debug\net8.0\As04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\bin\Debug\net8.0\As04.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.AssemblyInfoInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.AssemblyInfo.cs
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.sourcelink.json
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\refint\As04.dll
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\As04.genruntimeconfig.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Mid\Remind\As04\obj\Debug\net8.0\ref\As04.dll

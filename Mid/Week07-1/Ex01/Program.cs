@@ -13,7 +13,7 @@ class Program
 
     static void menu(out int choice)
     {
-        Console.WriteLine("1. 추가하기\t2. 포함여부\t3. 검색\t4. 삭제\t5. 종료 >> ");
+        Console.WriteLine("1.추가하기\t2.포함여부\t3.검색\t4.삭제\t5.종료 >> ");
         int.TryParse(Console.ReadLine(), out choice);
     }
 
@@ -89,26 +89,26 @@ class Program
         str_print(list); 
         Console.WriteLine("--------- 선택한 메뉴에 따라 리스트에 저장된 원소 다루기 ------------"); 
         while (true) { 
-            menu(out int choice); 
+            menu(out int choice);
             if (choice == 5){ 
                 break;
             }
-            switch (choice) { 
-                case 1: 
-                    str_insert(list); 
-                    str_print(list); 
-                    break; 
-                case 2: 
-                    str_contains(list); 
-                    break; 
-                case 3: 
-                    str_find(list); 
-                    break; 
-                case 4: 
-                    str_remove(list); 
-                    str_print(list); 
-                    break; 
-            } 
+            switch (choice) {
+                case 1:
+                    str_insert(list);
+                    str_print(list);
+                    break;
+                case 2:
+                    str_contains(list);
+                    break;
+                case 3:
+                    str_find(list);
+                    break;
+                case 4:
+                    str_remove(list);
+                    str_print(list);
+                    break;
+            }
         }
     }
 }

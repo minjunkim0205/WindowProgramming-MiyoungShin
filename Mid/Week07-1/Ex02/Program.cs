@@ -2,17 +2,6 @@
 
 class Program
 {
-    class Info
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public Info(string id, string name)
-        {
-            Id = id;
-            Name = name;
-        }
-        public string infoString => $"ID = {Id}, Name = {Name}";
-    }
     static void Main(string[] args)
     {
         // 1)번 
@@ -26,9 +15,10 @@ class Program
         foreach (string e in name_list)
         {
             int key;
-            do{
+            do
+            {
                 key = random.Next(10, 100);
-            }while(map.ContainsKey(key));
+            } while (map.ContainsKey(key));
             map[key] = new Info(key.ToString(), e);
         }
         //3번) 
@@ -47,9 +37,10 @@ class Program
         for (int i = 0; i < 5; i++)
         {
             int key;
-            do{
+            do
+            {
                 key = random.Next(10, 100);
-            }while(map.ContainsKey(key));
+            } while (map.ContainsKey(key));
             Console.Write($"Enter key : {key} name >> ");
             map.Add(key, new Info(key.ToString(), Console.ReadLine()));
         }
@@ -71,12 +62,15 @@ class Program
         foreach (var e_t in temp_map)
         {
             bool flag = false;
-            foreach(var e in map){
-                if(e_t.Value.Name == e.Value.Name){
+            foreach (var e in map)
+            {
+                if (e_t.Value.Name == e.Value.Name)
+                {
                     flag = true;
                 }
             }
-            if(!flag){
+            if (!flag)
+            {
                 map.Add(e_t.Key, e_t.Value);
             }
         }

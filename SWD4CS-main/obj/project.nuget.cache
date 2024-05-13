@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FXiWZYTtnqdoNQDiLkLIu3c5jeGWU5wgKBg62YzBXMZP5py26gCJ8HRH88aiBD7ZU8bT3oBqYoIscHZ+6He8VA==",
+  "dgSpecHash": "2yIzXda1kNFWB2Eilb8ppzlFYt2duYZgz4ta+En8TD3m/7KX5jrWDzk6SekUoCRf+dC6HO5VPCz7v98EM9u6Pg==",
   "success": true,
   "projectFilePath": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SWD4CS-main\\SWD4CS.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mjk\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\mjk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\mjk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\mjk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

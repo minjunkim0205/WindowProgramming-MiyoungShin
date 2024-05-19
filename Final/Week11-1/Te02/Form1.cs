@@ -56,7 +56,7 @@ public partial class Form1 : Form
             ListBoxData.SetSelected(index, true);
         }
         else
-        {dd
+        {
             MessageBox.Show("Item not found.", "Search Result");
         }
     }

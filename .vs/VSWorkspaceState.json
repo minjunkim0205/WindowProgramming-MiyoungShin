@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Mid"
+    "\\Final",
+    "\\Mid",
+    "\\Mid\\Week04-1\\Te03",
+    "\\Mid\\Week05-1",
+    "\\Mid\\Week05-1\\Te03"
   ],
-  "SelectedNode": "\\Mid\\Week01-2",
+  "SelectedNode": "\\Mid\\Week05-1\\Te03\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

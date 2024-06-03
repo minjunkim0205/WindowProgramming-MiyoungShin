@@ -1,0 +1,10 @@
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\bin\Debug\Te01.exe.config
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\bin\Debug\Te01.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\bin\Debug\Te01.pdb
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.csproj.AssemblyReference.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.Form1.resources
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.Properties.Resources.resources
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.csproj.GenerateResource.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.csproj.CoreCompileInputs.cache
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.exe
+C:\Users Files\mjk\Coding\Project\WindowProgramming-MiyoungShin\Final\Week14-1\Te01\obj\Debug\Te01.pdb

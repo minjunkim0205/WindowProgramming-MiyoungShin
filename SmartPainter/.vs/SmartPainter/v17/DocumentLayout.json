@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|c:\\users files\\mjk\\coding\\project\\windowprogramming-miyoungshin\\smartpainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|c:\\users files\\mjk\\coding\\project\\windowprogramming-miyoungshin\\smartpainter\\paint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\paint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:paint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,14 +25,6 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Paint.cs",
@@ -40,9 +32,10 @@
               "RelativeDocumentMoniker": "Paint.cs",
               "ToolTip": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Paint.cs",
               "RelativeToolTip": "Paint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "ViewState": "AQIAALkAAAAAAAAAAABAwMcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T07:30:26.897Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -53,10 +46,19 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAC0AAAAWAAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAiwHkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T09:12:39.569Z",
+              "WhenOpened": "2024-06-04T15:24:43.675Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",

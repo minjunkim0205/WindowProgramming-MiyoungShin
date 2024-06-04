@@ -12,153 +12,128 @@ namespace SmartPainter
 {
     public partial class Form1 : Form
     {
-        /*Field*/
-        private Bitmap bitmap;
-        private Graphics graphics;
-        private int pen_type = 0;
-        private bool paint = false;
-        private Point point_x, point_y;
-        private Pen pen = new Pen(Color.Black, 2);
-        private Pen erase = new Pen(Color.White, 2);
-        private int x, y, s_x, s_y, c_x, c_y;
-        /*Start*/
+        /**Field*/
+        private Paint paint;
+        /**Init*/
         public Form1()
         {
             InitializeComponent();
-            bitmap = new Bitmap(pictureBoxPaint.Width, pictureBoxPaint.Height);
-            graphics = Graphics.FromImage(bitmap);
-            graphics.Clear(Color.White);
-            pictureBoxPaint.Image = bitmap;
         }
-        /*Method*/
-        private void changePenSize(double size)
+        /**Event*/
+        private void Form1_Load(object sender, EventArgs e)
         {
-            pen.Width = (float)size;
-            erase.Width = (float)size;
-            textBoxSize.Text = $"{size}";
-        }
-        /*Event*/
-        private void pictureBoxPaint_MouseDown(object sender, MouseEventArgs e)
-        {
-            paint = true;
-            point_y = e.Location;
-
-            c_x = e.X;
-            c_y = e.Y;
+            this.paint = new Paint(this.panelPaint, this.pictureBoxPaint);
         }
 
-        private void pictureBoxPaint_MouseMove(object sender, MouseEventArgs e)
+        private void toolStripMenuItemExit_Click(object sender, EventArgs e)
         {
-            if(paint)
-            {
-                if(pen_type == 1)
-                {
-                    point_x = e.Location;
-                    graphics.DrawLine(pen, point_x, point_y);
-                    point_y = point_x;
-                }
-                else if(pen_type == 2)
-                {
-                    point_x = e.Location;
-                    graphics.DrawLine(erase, point_x, point_y);
-                    point_y = point_x;
-                }
-            }
-            pictureBoxPaint.Refresh();
-            x = e.X;
-            y = e.Y;
-            s_x = e.X - c_x;
-            s_y = e.Y - c_y;
+            MessageBox.Show($"비트맵이 수정 되었다면 경고후 종료와 취소 알림창을 만들어야 함.");
+            this.Close();
         }
-        private void pictureBoxPaint_MouseUp(object sender, MouseEventArgs e)
+
+        private void buttonTool_Click(object sender, EventArgs e)
         {
-            paint = false;
-
-            s_x = x - c_x; 
-            s_y = y - c_y;
-
-            if(pen_type == 3)
-            {
-                graphics.DrawEllipse(pen, c_x, c_y, s_x, s_y);
-            }
-            else if(pen_type == 4)
-            {
-                graphics.DrawRectangle(pen, c_x, c_y, s_x, s_y);
-            }
-            else if (pen_type == 5)
-            {
-                graphics.DrawLine(pen, c_x, c_y, x, y);
-            }
+            this.paint.setTool(int.Parse((sender as Button).Tag.ToString()));
         }
 
         private void buttonSize_Click(object sender, EventArgs e)
         {
-            Button button = (Button)sender;
-            if(button.Name == $"buttonSizeS")
+            string tag = (sender as Button).Tag.ToString();
+            if (tag == "s")
             {
-                changePenSize(1.0);
+                this.paint.setToolSize(1.0f);
             }
-            else if(button.Name == $"buttonSizeM")
+            else if (tag == "m")
             {
-                changePenSize(2.5);
+                this.paint.setToolSize(2.5f);
             }
-            else if (button.Name == $"buttonSizeL")
+            else if (tag == "l")
             {
-                changePenSize(4.0);
+                this.paint.setToolSize(4.0f);
             }
+            else if (tag == "+")
+            {
+                this.paint.setToolSize(this.paint.getToolSize() + 1);
+            }
+            else if (tag == "-")
+            {
+                this.paint.setToolSize(this.paint.getToolSize() - 1);
+            }
+            textBoxSize.Text = this.paint.getToolSize().ToString();
         }
 
         private void textBoxSize_TextChanged(object sender, EventArgs e)
         {
-            if(double.TryParse(textBoxSize.Text, out double value))
+            if (float.TryParse(textBoxSize.Text, out float size))
             {
-                changePenSize(value);
+                this.paint.setToolSize(size);
             }
             else
             {
                 MessageBox.Show($"Size can be only number.");
-                textBoxSize.Text = $"{pen.Width}";
+                textBoxSize.Text = $"{this.paint.getToolSize()}";
             }
         }
 
-        private void buttonSizeUp_Click(object sender, EventArgs e)
+        private void pictureBoxPaint_MouseDown(object sender, MouseEventArgs e)
         {
-            changePenSize(pen.Width+1);
+            this.paint.setPenDown(e);
         }
 
-        private void buttonSizeDown_Click(object sender, EventArgs e)
+        private void pictureBoxPaint_MouseUp(object sender, MouseEventArgs e)
         {
-            changePenSize(pen.Width-1);
+            this.paint.setPenUp(e);
         }
 
-        private void buttonToolPencil_Click(object sender, EventArgs e)
+        private void pictureBoxPaint_MouseMove(object sender, MouseEventArgs e)
         {
-            pen_type = 1;
+            this.paint.setPenMove(e);
         }
 
-        private void buttonToolEraser_Click(object sender, EventArgs e)
+        private void pictureBoxPaint_Paint(object sender, PaintEventArgs e)
         {
-            pen_type = 2;
+            this.paint.setPenMove(e);
         }
 
-        private void buttonToolLine_Click(object sender, EventArgs e)
+        private void buttonColorPicker_Click(object sender, EventArgs e)
         {
-            pen_type = 5;
+            ColorDialog colorDialog = new ColorDialog();
+            colorDialog.ShowDialog();
+            this.panelColor.BackColor = colorDialog.Color;
+            this.paint.setToolColor(colorDialog.Color);
         }
 
-        private void buttonToolPail_Click(object sender, EventArgs e)
+        private void buttonColor_Click(object sender, EventArgs e)
         {
-
+            Button button = (Button)sender;
+            this.panelColor.BackColor = button.BackColor;
+            this.paint.setToolColor(button.BackColor);
         }
 
-        private void buttonShapeCircle_Click(object sender, EventArgs e)
+        private void toolStripMenuItem_Click(object sender, EventArgs e)
         {
-            pen_type = 3;
+            string tag = (sender as ToolStripMenuItem).Tag.ToString();
+            if (tag == "new")
+            {
+                this.paint.reset();
+            }
+            else if (tag == "load")
+            {
+                this.paint.load();
+            }
+            else if (tag == "save")
+            {
+                this.paint.save();
+            }
+            else if (tag == "save_as")
+            {
+                this.paint.saveAs();
+            }
         }
 
-        private void buttonShapeSquare_Click(object sender, EventArgs e)
+        private void toolStripMenuItemPrint_Click(object sender, EventArgs e)
         {
-            pen_type = 4;
+            this.paint.print();
         }
     }
 }

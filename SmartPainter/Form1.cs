@@ -100,11 +100,11 @@ namespace SmartPainter
             }
             else if(button.Name == $"buttonSizeM")
             {
-                changePenSize(2.0);
+                changePenSize(2.5);
             }
             else if (button.Name == $"buttonSizeL")
             {
-                changePenSize(3.0);
+                changePenSize(4.0);
             }
         }
 
@@ -119,6 +119,16 @@ namespace SmartPainter
                 MessageBox.Show($"Size can be only number.");
                 textBoxSize.Text = $"{pen.Width}";
             }
+        }
+
+        private void buttonSizeUp_Click(object sender, EventArgs e)
+        {
+            changePenSize(pen.Width+1);
+        }
+
+        private void buttonSizeDown_Click(object sender, EventArgs e)
+        {
+            changePenSize(pen.Width-1);
         }
 
         private void buttonToolPencil_Click(object sender, EventArgs e)

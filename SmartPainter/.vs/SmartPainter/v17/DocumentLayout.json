@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|c:\\users files\\mjk\\coding\\project\\windowprogramming-miyoungshin\\smartpainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|c:\\users files\\mjk\\coding\\project\\windowprogramming-miyoungshin\\smartpainter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|c:\\users files\\mjk\\coding\\project\\windowprogramming-miyoungshin\\smartpainter\\paint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A81B858-E595-4356-BE11-B046D0D2BDDB}|SmartPainter.csproj|solutionrelative:paint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 629,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Paint.cs",
+              "DocumentMoniker": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Paint.cs",
+              "RelativeDocumentMoniker": "Paint.cs",
+              "ToolTip": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Paint.cs",
+              "RelativeToolTip": "Paint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:30:26.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAA3wFoAAAANAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T09:12:39.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users Files\\mjk\\Coding\\Project\\WindowProgramming-MiyoungShin\\SmartPainter\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

@@ -97,6 +97,8 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.panelPaint = new System.Windows.Forms.Panel();
             this.pictureBoxPaint = new System.Windows.Forms.PictureBox();
+            this.buttonSizeUp = new System.Windows.Forms.Button();
+            this.buttonSizeDown = new System.Windows.Forms.Button();
             this.menuStripTop.SuspendLayout();
             this.tableLayoutPanelMain.SuspendLayout();
             this.statusStripBottom.SuspendLayout();
@@ -367,6 +369,7 @@
             this.tableLayoutPanelMain.Controls.Add(this.buttonShapeSquare, 5, 0);
             this.tableLayoutPanelMain.Controls.Add(this.buttonShapeCircle, 5, 1);
             this.tableLayoutPanelMain.Controls.Add(this.buttonSizeS, 7, 0);
+            this.tableLayoutPanelMain.Controls.Add(this.textBoxSize, 8, 1);
             this.tableLayoutPanelMain.Controls.Add(this.buttonSizeM, 8, 0);
             this.tableLayoutPanelMain.Controls.Add(this.buttonSizeL, 9, 0);
             this.tableLayoutPanelMain.Controls.Add(this.buttonColorPicker, 11, 0);
@@ -388,7 +391,8 @@
             this.tableLayoutPanelMain.Controls.Add(this.buttonColor16, 19, 1);
             this.tableLayoutPanelMain.Controls.Add(this.buttonColorPipette, 20, 1);
             this.tableLayoutPanelMain.Controls.Add(this.buttonColorDelete, 20, 0);
-            this.tableLayoutPanelMain.Controls.Add(this.textBoxSize, 7, 1);
+            this.tableLayoutPanelMain.Controls.Add(this.buttonSizeDown, 9, 1);
+            this.tableLayoutPanelMain.Controls.Add(this.buttonSizeUp, 7, 1);
             this.tableLayoutPanelMain.Location = new System.Drawing.Point(0, 27);
             this.tableLayoutPanelMain.Name = "tableLayoutPanelMain";
             this.tableLayoutPanelMain.RowCount = 3;
@@ -686,12 +690,12 @@
             // 
             // textBoxSize
             // 
-            this.tableLayoutPanelMain.SetColumnSpan(this.textBoxSize, 3);
-            this.textBoxSize.Location = new System.Drawing.Point(227, 35);
+            this.textBoxSize.Location = new System.Drawing.Point(259, 35);
             this.textBoxSize.Name = "textBoxSize";
-            this.textBoxSize.Size = new System.Drawing.Size(90, 20);
+            this.textBoxSize.Size = new System.Drawing.Size(26, 20);
             this.textBoxSize.TabIndex = 42;
             this.textBoxSize.Text = "2";
+            this.textBoxSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxSize.TextChanged += new System.EventHandler(this.textBoxSize_TextChanged);
             // 
             // statusStripBottom
@@ -788,6 +792,27 @@
             this.pictureBoxPaint.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseDown);
             this.pictureBoxPaint.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseMove);
             this.pictureBoxPaint.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseUp);
+            // 
+            // buttonSizeUp
+            // 
+            this.buttonSizeUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSizeUp.Location = new System.Drawing.Point(233, 35);
+            this.buttonSizeUp.Name = "buttonSizeUp";
+            this.buttonSizeUp.Size = new System.Drawing.Size(20, 20);
+            this.buttonSizeUp.TabIndex = 43;
+            this.buttonSizeUp.Text = "-";
+            this.buttonSizeUp.UseVisualStyleBackColor = true;
+            this.buttonSizeUp.Click += new System.EventHandler(this.buttonSizeDown_Click);
+            // 
+            // buttonSizeDown
+            // 
+            this.buttonSizeDown.Location = new System.Drawing.Point(291, 35);
+            this.buttonSizeDown.Name = "buttonSizeDown";
+            this.buttonSizeDown.Size = new System.Drawing.Size(20, 20);
+            this.buttonSizeDown.TabIndex = 44;
+            this.buttonSizeDown.Text = "+";
+            this.buttonSizeDown.UseVisualStyleBackColor = true;
+            this.buttonSizeDown.Click += new System.EventHandler(this.buttonSizeUp_Click);
             // 
             // Form1
             // 
@@ -893,6 +918,8 @@
         private System.Windows.Forms.Panel panelPaint;
         private System.Windows.Forms.PictureBox pictureBoxPaint;
         private System.Windows.Forms.TextBox textBoxSize;
+        private System.Windows.Forms.Button buttonSizeUp;
+        private System.Windows.Forms.Button buttonSizeDown;
     }
 }
 

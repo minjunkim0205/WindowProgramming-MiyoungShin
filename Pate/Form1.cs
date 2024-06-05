@@ -22,7 +22,7 @@ namespace Pate
         /**Event*/
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.paint = new Paint(this.panelPaint, this.pictureBoxPaint);
+            this.paint = new Paint(this.panelPaint, this.pictureBoxPaint, this.panelColor);
         }
 
         private void toolStripMenuItemExit_Click(object sender, EventArgs e)
@@ -45,11 +45,11 @@ namespace Pate
             }
             else if (tag == "m")
             {
-                this.paint.setToolSize(2.5f);
+                this.paint.setToolSize(5.0f);
             }
             else if (tag == "l")
             {
-                this.paint.setToolSize(4.0f);
+                this.paint.setToolSize(10.0f);
             }
             else if (tag == "+")
             {
@@ -88,6 +88,7 @@ namespace Pate
         private void pictureBoxPaint_MouseMove(object sender, MouseEventArgs e)
         {
             this.paint.setPenMove(e);
+            this.toolStripStatusLabelMousePos.Text = $"{e.Location.X}, {e.Location.Y}";
         }
 
         private void pictureBoxPaint_Paint(object sender, PaintEventArgs e)
@@ -99,14 +100,12 @@ namespace Pate
         {
             ColorDialog colorDialog = new ColorDialog();
             colorDialog.ShowDialog();
-            this.panelColor.BackColor = colorDialog.Color;
             this.paint.setToolColor(colorDialog.Color);
         }
 
         private void buttonColor_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            this.panelColor.BackColor = button.BackColor;
             this.paint.setToolColor(button.BackColor);
         }
 

@@ -18,7 +18,8 @@ namespace Pate
         {
             Pencil, 
             Eraser, 
-            Line, Pail, 
+            Line, 
+            Pail, 
             Square, 
             Circle, 
             Pipette
@@ -34,6 +35,7 @@ namespace Pate
         private PictureBox pictureBox;
         private Bitmap bitmap;
         private Graphics graphics;
+        private Panel panelColor;
         private Pen pen;
         private Pen eraser;
         private Brush brush;
@@ -41,10 +43,11 @@ namespace Pate
         private Point pointPrev, pointCur;
         private Point pointStart, pointEnd;
         /**Construct*/
-        public Paint(Panel panel, PictureBox pictureBox)
+        public Paint(Panel panel, PictureBox pictureBox, Panel panelColor)
         {
             this.panel = panel;
             this.pictureBox = pictureBox;
+            this.panelColor = panelColor;
             this.backgroundColor = Color.White;
             this.toolColor = Color.Black;
             this.toolType = ToolType.Pencil;
@@ -52,6 +55,7 @@ namespace Pate
             this.pen = new Pen(this.toolColor, this.toolSize);
             this.brush = new SolidBrush(this.toolColor);
             this.penDown = false;
+            this.panelColor.BackColor = this.toolColor;
             this.reset(WIDTH, HEIGHT, this.backgroundColor);
         }
         /**Method*/
@@ -94,6 +98,7 @@ namespace Pate
         {
             this.toolColor = _color;
             this.pen.Color = this.toolColor;
+            this.panelColor.BackColor = this.toolColor;
             return;
         }
         public void setPenDown(in MouseEventArgs _event)
@@ -101,6 +106,11 @@ namespace Pate
             this.pointPrev = _event.Location;
             this.pointStart = _event.Location;
             this.penDown = true;
+            if (this.toolType == ToolType.Pipette)
+            {
+                Color colorPipette = this.bitmap.GetPixel(this.pointStart.X, this.pointStart.Y);
+                this.setToolColor(colorPipette);
+            }
             return;
         }
         public void setPenUp(in MouseEventArgs _event)
@@ -109,22 +119,21 @@ namespace Pate
             this.penDown = false;
             if (this.toolType == ToolType.Line)
             {
-                graphics.DrawLine(pen, this.pointStart.X, this.pointStart.Y, this.pointEnd.X, this.pointEnd.Y);
+                this.graphics.DrawLine(this.pen, this.pointStart.X, this.pointStart.Y, this.pointEnd.X, this.pointEnd.Y);
             }
             else if (this.toolType == ToolType.Square)
             {
-                graphics.DrawRectangle(pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointEnd.X - this.pointStart.X, this.pointEnd.Y - this.pointStart.Y));
+                this.graphics.DrawRectangle(this.pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointEnd.X - this.pointStart.X, this.pointEnd.Y - this.pointStart.Y));
             }
             else if (this.toolType == ToolType.Circle)
             {
-                graphics.DrawEllipse(pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointEnd.X - this.pointStart.X, this.pointEnd.Y - this.pointStart.Y));
+                this.graphics.DrawEllipse(this.pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointEnd.X - this.pointStart.X, this.pointEnd.Y - this.pointStart.Y));
             }
             return;
         }
         public void setPenMove(in MouseEventArgs _event)
         {
             this.pointCur = _event.Location;
-            Console.WriteLine("d");
             if(this.penDown)
             {
                 if(this.toolType == ToolType.Pencil)
@@ -154,19 +163,20 @@ namespace Pate
             {
                 if (this.toolType == ToolType.Line)
                 {
-                    graphicsPreview.DrawLine(pen, this.pointStart.X, this.pointStart.Y, this.pointCur.X, this.pointCur.Y);
+                    graphicsPreview.DrawLine(this.pen, this.pointStart.X, this.pointStart.Y, this.pointCur.X, this.pointCur.Y);
                 }
                 else if (this.toolType == ToolType.Square)
                 {
-                    graphicsPreview.DrawRectangle(pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointCur.X - this.pointStart.X, this.pointCur.Y - this.pointStart.Y));
+                    graphicsPreview.DrawRectangle(this.pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointCur.X - this.pointStart.X, this.pointCur.Y - this.pointStart.Y));
                 }
                 else if (this.toolType == ToolType.Circle)
                 {
-                    graphicsPreview.DrawEllipse(pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointCur.X - this.pointStart.X, this.pointCur.Y - this.pointStart.Y));
+                    graphicsPreview.DrawEllipse(this.pen, new Rectangle(this.pointStart.X, this.pointStart.Y, this.pointCur.X - this.pointStart.X, this.pointCur.Y - this.pointStart.Y));
                 }
             }
             return;
         }
+        // File
         public void load()
         {
             // TODO 여기 고쳐야 함.
@@ -176,6 +186,7 @@ namespace Pate
                 this.bitmap = new Bitmap(openFileDialog.FileName);
                 this.pictureBox.Image = Bitmap.FromFile(openFileDialog.FileName);
             }
+            return;
         }
         public void save()
         {

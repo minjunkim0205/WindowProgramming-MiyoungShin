@@ -89,21 +89,20 @@
             this.buttonColorPicker = new System.Windows.Forms.Button();
             this.panelColor = new System.Windows.Forms.Panel();
             this.buttonSetting = new System.Windows.Forms.Button();
+            this.panelPaint = new System.Windows.Forms.Panel();
+            this.pictureBoxPaint = new System.Windows.Forms.PictureBox();
+            this.panelBackground = new System.Windows.Forms.Panel();
             this.statusStripBottom = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelMousePos = new System.Windows.Forms.ToolStripStatusLabel();
             this.trackBarZoom = new System.Windows.Forms.TrackBar();
             this.labelZoom100 = new System.Windows.Forms.Label();
             this.labelZoom0 = new System.Windows.Forms.Label();
-            this.panelBackground = new System.Windows.Forms.Panel();
-            this.panelPaint = new System.Windows.Forms.Panel();
-            this.pictureBoxPaint = new System.Windows.Forms.PictureBox();
             this.menuStripTop.SuspendLayout();
             this.tableLayoutPanelMain.SuspendLayout();
-            this.statusStripBottom.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBarZoom)).BeginInit();
-            this.panelBackground.SuspendLayout();
             this.panelPaint.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPaint)).BeginInit();
+            this.statusStripBottom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarZoom)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStripTop
@@ -782,71 +781,10 @@
             this.buttonSetting.TabIndex = 9;
             this.buttonSetting.UseVisualStyleBackColor = false;
             // 
-            // statusStripBottom
-            // 
-            this.statusStripBottom.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelMousePos});
-            this.statusStripBottom.Location = new System.Drawing.Point(0, 659);
-            this.statusStripBottom.Name = "statusStripBottom";
-            this.statusStripBottom.Size = new System.Drawing.Size(1264, 22);
-            this.statusStripBottom.TabIndex = 4;
-            this.statusStripBottom.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabelMousePos
-            // 
-            this.toolStripStatusLabelMousePos.BackColor = System.Drawing.SystemColors.Control;
-            this.toolStripStatusLabelMousePos.Name = "toolStripStatusLabelMousePos";
-            this.toolStripStatusLabelMousePos.Size = new System.Drawing.Size(25, 17);
-            this.toolStripStatusLabelMousePos.Text = "0, 0";
-            // 
-            // trackBarZoom
-            // 
-            this.trackBarZoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.trackBarZoom.AutoSize = false;
-            this.trackBarZoom.BackColor = System.Drawing.SystemColors.Control;
-            this.trackBarZoom.Location = new System.Drawing.Point(1102, 660);
-            this.trackBarZoom.Maximum = 100;
-            this.trackBarZoom.Name = "trackBarZoom";
-            this.trackBarZoom.Size = new System.Drawing.Size(104, 20);
-            this.trackBarZoom.TabIndex = 5;
-            this.trackBarZoom.TickFrequency = 10;
-            this.trackBarZoom.Value = 100;
-            // 
-            // labelZoom100
-            // 
-            this.labelZoom100.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelZoom100.AutoSize = true;
-            this.labelZoom100.BackColor = System.Drawing.SystemColors.Control;
-            this.labelZoom100.Location = new System.Drawing.Point(1203, 664);
-            this.labelZoom100.Name = "labelZoom100";
-            this.labelZoom100.Size = new System.Drawing.Size(33, 13);
-            this.labelZoom100.TabIndex = 6;
-            this.labelZoom100.Text = "100%";
-            // 
-            // labelZoom0
-            // 
-            this.labelZoom0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelZoom0.AutoSize = true;
-            this.labelZoom0.BackColor = System.Drawing.SystemColors.Control;
-            this.labelZoom0.Location = new System.Drawing.Point(1082, 664);
-            this.labelZoom0.Name = "labelZoom0";
-            this.labelZoom0.Size = new System.Drawing.Size(21, 13);
-            this.labelZoom0.TabIndex = 7;
-            this.labelZoom0.Text = "0%";
-            // 
-            // panelBackground
-            // 
-            this.panelBackground.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panelBackground.Controls.Add(this.panelPaint);
-            this.panelBackground.Location = new System.Drawing.Point(0, 120);
-            this.panelBackground.Name = "panelBackground";
-            this.panelBackground.Size = new System.Drawing.Size(1920, 1080);
-            this.panelBackground.TabIndex = 12;
-            // 
             // panelPaint
             // 
             this.panelPaint.Controls.Add(this.pictureBoxPaint);
-            this.panelPaint.Location = new System.Drawing.Point(12, 11);
+            this.panelPaint.Location = new System.Drawing.Point(11, 130);
             this.panelPaint.Name = "panelPaint";
             this.panelPaint.Size = new System.Drawing.Size(429, 240);
             this.panelPaint.TabIndex = 13;
@@ -865,35 +803,97 @@
             this.pictureBoxPaint.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseMove);
             this.pictureBoxPaint.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxPaint_MouseUp);
             // 
+            // panelBackground
+            // 
+            this.panelBackground.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelBackground.Location = new System.Drawing.Point(809, 158);
+            this.panelBackground.Name = "panelBackground";
+            this.panelBackground.Size = new System.Drawing.Size(200, 200);
+            this.panelBackground.TabIndex = 12;
+            this.panelBackground.Visible = false;
+            // 
+            // statusStripBottom
+            // 
+            this.statusStripBottom.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabelMousePos});
+            this.statusStripBottom.Location = new System.Drawing.Point(0, 659);
+            this.statusStripBottom.Name = "statusStripBottom";
+            this.statusStripBottom.Size = new System.Drawing.Size(1264, 22);
+            this.statusStripBottom.TabIndex = 14;
+            this.statusStripBottom.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabelMousePos
+            // 
+            this.toolStripStatusLabelMousePos.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStripStatusLabelMousePos.Name = "toolStripStatusLabelMousePos";
+            this.toolStripStatusLabelMousePos.Size = new System.Drawing.Size(25, 17);
+            this.toolStripStatusLabelMousePos.Text = "0, 0";
+            // 
+            // trackBarZoom
+            // 
+            this.trackBarZoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.trackBarZoom.AutoSize = false;
+            this.trackBarZoom.BackColor = System.Drawing.SystemColors.Control;
+            this.trackBarZoom.Location = new System.Drawing.Point(1117, 660);
+            this.trackBarZoom.Maximum = 100;
+            this.trackBarZoom.Name = "trackBarZoom";
+            this.trackBarZoom.Size = new System.Drawing.Size(104, 20);
+            this.trackBarZoom.TabIndex = 15;
+            this.trackBarZoom.TickFrequency = 10;
+            this.trackBarZoom.Value = 100;
+            // 
+            // labelZoom100
+            // 
+            this.labelZoom100.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelZoom100.AutoSize = true;
+            this.labelZoom100.BackColor = System.Drawing.SystemColors.Control;
+            this.labelZoom100.Location = new System.Drawing.Point(1217, 664);
+            this.labelZoom100.Name = "labelZoom100";
+            this.labelZoom100.Size = new System.Drawing.Size(33, 13);
+            this.labelZoom100.TabIndex = 16;
+            this.labelZoom100.Text = "100%";
+            // 
+            // labelZoom0
+            // 
+            this.labelZoom0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelZoom0.AutoSize = true;
+            this.labelZoom0.BackColor = System.Drawing.SystemColors.Control;
+            this.labelZoom0.Location = new System.Drawing.Point(1097, 664);
+            this.labelZoom0.Name = "labelZoom0";
+            this.labelZoom0.Size = new System.Drawing.Size(21, 13);
+            this.labelZoom0.TabIndex = 17;
+            this.labelZoom0.Text = "0%";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.panelBackground);
             this.Controls.Add(this.labelZoom0);
             this.Controls.Add(this.labelZoom100);
             this.Controls.Add(this.trackBarZoom);
             this.Controls.Add(this.statusStripBottom);
+            this.Controls.Add(this.panelPaint);
             this.Controls.Add(this.tableLayoutPanelMain);
             this.Controls.Add(this.menuStripTop);
+            this.Controls.Add(this.panelBackground);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripTop;
             this.MinimumSize = new System.Drawing.Size(429, 240);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pate";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStripTop.ResumeLayout(false);
             this.menuStripTop.PerformLayout();
             this.tableLayoutPanelMain.ResumeLayout(false);
             this.tableLayoutPanelMain.PerformLayout();
+            this.panelPaint.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPaint)).EndInit();
             this.statusStripBottom.ResumeLayout(false);
             this.statusStripBottom.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarZoom)).EndInit();
-            this.panelBackground.ResumeLayout(false);
-            this.panelPaint.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPaint)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -943,11 +943,6 @@
         private System.Windows.Forms.Button buttonColor16;
         private System.Windows.Forms.Button buttonColor06;
         private System.Windows.Forms.Button buttonColor14;
-        private System.Windows.Forms.StatusStrip statusStripBottom;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMousePos;
-        private System.Windows.Forms.TrackBar trackBarZoom;
-        private System.Windows.Forms.Label labelZoom100;
-        private System.Windows.Forms.Label labelZoom0;
         private System.Windows.Forms.Button buttonColorPicker;
         private System.Windows.Forms.Button buttonToolLine;
         private System.Windows.Forms.Button buttonToolPencil;
@@ -965,10 +960,15 @@
         private System.Windows.Forms.TextBox textBoxSize;
         private System.Windows.Forms.Button buttonSizeUp;
         private System.Windows.Forms.Button buttonSizeDown;
-        private System.Windows.Forms.Panel panelBackground;
+        private System.Windows.Forms.Panel panelColor;
         private System.Windows.Forms.Panel panelPaint;
         private System.Windows.Forms.PictureBox pictureBoxPaint;
-        private System.Windows.Forms.Panel panelColor;
+        private System.Windows.Forms.Panel panelBackground;
+        private System.Windows.Forms.StatusStrip statusStripBottom;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMousePos;
+        private System.Windows.Forms.TrackBar trackBarZoom;
+        private System.Windows.Forms.Label labelZoom100;
+        private System.Windows.Forms.Label labelZoom0;
     }
 }
 

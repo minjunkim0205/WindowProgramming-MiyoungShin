@@ -806,7 +806,7 @@
             // panelBackground
             // 
             this.panelBackground.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panelBackground.Location = new System.Drawing.Point(654, 184);
+            this.panelBackground.Location = new System.Drawing.Point(611, 188);
             this.panelBackground.Name = "panelBackground";
             this.panelBackground.Size = new System.Drawing.Size(200, 200);
             this.panelBackground.TabIndex = 12;

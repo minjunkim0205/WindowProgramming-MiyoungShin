@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -118,7 +120,7 @@ namespace Pate
             }
             else if (tag == "load")
             {
-                this.paint.load();
+                //this.paint.load();
             }
             else if (tag == "save")
             {
@@ -132,7 +134,47 @@ namespace Pate
 
         private void toolStripMenuItemPrint_Click(object sender, EventArgs e)
         {
-            this.paint.print();
+            //String pageSettingArgs;
+            PageSettings pageSettings = new PageSettings();
+            pageSetupDialog.PageSettings = pageSettings;
+            printDialog.PrinterSettings = new PrinterSettings();
+            printDialog.Document = printDocument;
+
+            DialogResult result = pageSetupDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                pageSettings = pageSetupDialog.PageSettings;
+                //pageSettingArgs = $"\nMargins: {pageSettings.Margins}\nPaperSize: {pageSettings.PaperSize}";
+                result = printDialog.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    printDocument.Print();
+                }
+            }
+            //this.paint.print();
+        }
+
+        private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            Bitmap target = this.paint.getBitmap();
+            if (target != null)
+            {
+                int x = e.MarginBounds.X;
+                int y = e.MarginBounds.Y;
+                int width = target.Width;
+                int height = target.Height;
+                if ((width / (double)height) > (e.MarginBounds.Width / (double)e.MarginBounds.Height))
+                {
+                    width = e.MarginBounds.Width;
+                    height = (target.Height * e.MarginBounds.Width) / target.Width;
+                }
+                else
+                {
+                    height = e.MarginBounds.Height;
+                    width = (target.Width * e.MarginBounds.Height) / target.Height;
+                }
+                e.Graphics.DrawImage(target, x, y, width, height);
+            }
         }
     }
 }

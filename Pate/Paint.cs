@@ -16,12 +16,12 @@ namespace Pate
         /**Enum*/
         enum ToolType : int
         {
-            Pencil, 
-            Eraser, 
-            Line, 
-            Pail, 
-            Square, 
-            Circle, 
+            Pencil,
+            Eraser,
+            Line,
+            Pail,
+            Square,
+            Circle,
             Pipette
         };
         /**Field*/
@@ -76,6 +76,10 @@ namespace Pate
             this.graphics.Clear(this.backgroundColor);
             this.pictureBox.Refresh();
             return;
+        }
+        public Bitmap getBitmap()
+        {
+            return this.bitmap;
         }
         // Tool
         public void setTool(in int _tool)
@@ -134,20 +138,19 @@ namespace Pate
         public void setPenMove(in MouseEventArgs _event)
         {
             this.pointCur = _event.Location;
-            if(this.penDown)
+            if (this.penDown)
             {
-                if(this.toolType == ToolType.Pencil)
+                if (this.toolType == ToolType.Pencil)
                 {
                     graphics.DrawLine(this.pen, this.pointPrev, this.pointCur);
                     pointPrev = pointCur;
-                    /* [This is new version of ToolType.Pencile but, it dosent work zzz]
-                     * 타원 그리기로 기존 방식의 티어링 문제를 해결하려 했으나 귀찮으니... 나중에
+                    /*
                      * int r = (int)(this.toolSize / 2);
                      * Rectangle rect = new Rectangle(this.pointCur.X - r, this.pointCur.Y - r, r*2, r*2);
                      * graphics.DrawEllipse(this.pen, rect);
                     */
                 }
-                else if(this.toolType == ToolType.Eraser)
+                else if (this.toolType == ToolType.Eraser)
                 {
                     graphics.DrawLine(this.eraser, this.pointPrev, this.pointCur);
                     this.pointPrev = this.pointCur;
@@ -177,20 +180,21 @@ namespace Pate
             return;
         }
         // File
-        public void load()
-        {
-            // TODO 여기 고쳐야 함.
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if(openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                this.bitmap = new Bitmap(openFileDialog.FileName);
-                this.pictureBox.Image = Bitmap.FromFile(openFileDialog.FileName);
-            }
-            return;
-        }
+        /*
+         * 
+         * public void load()
+         * {
+         *     OpenFileDialog openFileDialog = new OpenFileDialog();
+         *     if(openFileDialog.ShowDialog() == DialogResult.OK)
+         *     {
+         *         this.bitmap = new Bitmap(openFileDialog.FileName);
+         *         this.pictureBox.Image = Bitmap.FromFile(openFileDialog.FileName);
+         *     }
+         *     return;
+         * }
+         */
         public void save()
         {
-            // TODO 여기 고쳐야 함.
             this.saveAs();
             return;
         }
@@ -206,15 +210,16 @@ namespace Pate
             }
             return;
         }
-        public void print()
-        {
-            // TODO 여기 고쳐야 함.
-            PrintDialog printDialog = new PrintDialog();
-            if (printDialog.ShowDialog() == DialogResult.OK)
-            {
-                MessageBox.Show("Print succese!");
-            }
-            return;
-        }
+        /*
+         * public void print()
+         * {
+         *     PrintDialog printDialog = new PrintDialog();
+         *     if (printDialog.ShowDialog() == DialogResult.OK)
+         *     {
+         *         MessageBox.Show("Print succese!");
+         *     }
+         *     return;
+         * }
+         */
     }
 }

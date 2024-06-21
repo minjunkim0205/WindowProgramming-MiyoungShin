@@ -97,6 +97,9 @@
             this.trackBarZoom = new System.Windows.Forms.TrackBar();
             this.labelZoom100 = new System.Windows.Forms.Label();
             this.labelZoom0 = new System.Windows.Forms.Label();
+            this.printDialog = new System.Windows.Forms.PrintDialog();
+            this.printDocument = new System.Drawing.Printing.PrintDocument();
+            this.pageSetupDialog = new System.Windows.Forms.PageSetupDialog();
             this.menuStripTop.SuspendLayout();
             this.tableLayoutPanelMain.SuspendLayout();
             this.panelPaint.SuspendLayout();
@@ -139,7 +142,7 @@
             // 
             this.toolStripMenuItemNew.Name = "toolStripMenuItemNew";
             this.toolStripMenuItemNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.toolStripMenuItemNew.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemNew.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemNew.Tag = "new";
             this.toolStripMenuItemNew.Text = "New(&N)";
             this.toolStripMenuItemNew.Click += new System.EventHandler(this.toolStripMenuItem_Click);
@@ -148,16 +151,17 @@
             // 
             this.toolStripMenuItemLoad.Name = "toolStripMenuItemLoad";
             this.toolStripMenuItemLoad.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.toolStripMenuItemLoad.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemLoad.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemLoad.Tag = "load";
             this.toolStripMenuItemLoad.Text = "Load(&O)";
+            this.toolStripMenuItemLoad.Visible = false;
             this.toolStripMenuItemLoad.Click += new System.EventHandler(this.toolStripMenuItem_Click);
             // 
             // toolStripMenuItemSave
             // 
             this.toolStripMenuItemSave.Name = "toolStripMenuItemSave";
             this.toolStripMenuItemSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.toolStripMenuItemSave.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemSave.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemSave.Tag = "save";
             this.toolStripMenuItemSave.Text = "Save(&S)";
             this.toolStripMenuItemSave.Click += new System.EventHandler(this.toolStripMenuItem_Click);
@@ -165,33 +169,34 @@
             // toolStripMenuItemSaveAs
             // 
             this.toolStripMenuItemSaveAs.Name = "toolStripMenuItemSaveAs";
-            this.toolStripMenuItemSaveAs.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemSaveAs.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemSaveAs.Tag = "save_as";
             this.toolStripMenuItemSaveAs.Text = "Save as";
+            this.toolStripMenuItemSaveAs.Visible = false;
             this.toolStripMenuItemSaveAs.Click += new System.EventHandler(this.toolStripMenuItem_Click);
             // 
             // toolStripSeparator01
             // 
             this.toolStripSeparator01.Name = "toolStripSeparator01";
-            this.toolStripSeparator01.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator01.Size = new System.Drawing.Size(177, 6);
             // 
             // toolStripMenuItemPrint
             // 
             this.toolStripMenuItemPrint.Name = "toolStripMenuItemPrint";
             this.toolStripMenuItemPrint.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.toolStripMenuItemPrint.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemPrint.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemPrint.Text = "Print(&P)";
             this.toolStripMenuItemPrint.Click += new System.EventHandler(this.toolStripMenuItemPrint_Click);
             // 
             // toolStripSeparator02
             // 
             this.toolStripSeparator02.Name = "toolStripSeparator02";
-            this.toolStripSeparator02.Size = new System.Drawing.Size(157, 6);
+            this.toolStripSeparator02.Size = new System.Drawing.Size(177, 6);
             // 
             // toolStripMenuItemExit
             // 
             this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-            this.toolStripMenuItemExit.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemExit.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemExit.Text = "Exit";
             this.toolStripMenuItemExit.Click += new System.EventHandler(this.toolStripMenuItemExit_Click);
             // 
@@ -210,7 +215,7 @@
             // 
             this.toolStripMenuItemCut.Name = "toolStripMenuItemCut";
             this.toolStripMenuItemCut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.toolStripMenuItemCut.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemCut.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemCut.Text = "Cut(&X)";
             this.toolStripMenuItemCut.Visible = false;
             // 
@@ -218,7 +223,7 @@
             // 
             this.toolStripMenuItemCopy.Name = "toolStripMenuItemCopy";
             this.toolStripMenuItemCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.toolStripMenuItemCopy.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemCopy.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemCopy.Text = "Copy(&C)";
             this.toolStripMenuItemCopy.Visible = false;
             // 
@@ -226,7 +231,7 @@
             // 
             this.toolStripMenuItemPaste.Name = "toolStripMenuItemPaste";
             this.toolStripMenuItemPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.toolStripMenuItemPaste.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItemPaste.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemPaste.Text = "Paste(&V)";
             this.toolStripMenuItemPaste.Visible = false;
             // 
@@ -235,8 +240,9 @@
             this.toolStripMenuItemView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemZoom});
             this.toolStripMenuItemView.Name = "toolStripMenuItemView";
-            this.toolStripMenuItemView.Size = new System.Drawing.Size(44, 20);
+            this.toolStripMenuItemView.Size = new System.Drawing.Size(44, 23);
             this.toolStripMenuItemView.Text = "View";
+            this.toolStripMenuItemView.Visible = false;
             // 
             // toolStripMenuItemZoom
             // 
@@ -246,7 +252,7 @@
             this.toolStripMenuItemZoomOut,
             this.toolStripMenuItemFit});
             this.toolStripMenuItemZoom.Name = "toolStripMenuItemZoom";
-            this.toolStripMenuItemZoom.Size = new System.Drawing.Size(106, 22);
+            this.toolStripMenuItemZoom.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemZoom.Text = "Zoom";
             // 
             // toolStripMenuItem100
@@ -864,6 +870,14 @@
             this.labelZoom0.TabIndex = 17;
             this.labelZoom0.Text = "0%";
             // 
+            // printDialog
+            // 
+            this.printDialog.UseEXDialog = true;
+            // 
+            // printDocument
+            // 
+            this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -969,6 +983,9 @@
         private System.Windows.Forms.TrackBar trackBarZoom;
         private System.Windows.Forms.Label labelZoom100;
         private System.Windows.Forms.Label labelZoom0;
+        private System.Windows.Forms.PrintDialog printDialog;
+        private System.Drawing.Printing.PrintDocument printDocument;
+        private System.Windows.Forms.PageSetupDialog pageSetupDialog;
     }
 }
 
